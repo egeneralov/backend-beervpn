@@ -52,7 +52,7 @@ def get_openvpn(client_name):
       )
     ) as f:
       answer[ovpntype] = f.read()
-  return answer
+  return jsonify(answer)
 
 
 if __name__ == '__main__':
