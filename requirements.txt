@@ -1,2 +1,4 @@
 flask
 argparse
+python-telegram-bot
+requests
